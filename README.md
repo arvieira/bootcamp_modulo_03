@@ -31,6 +31,18 @@ Assim como, analisar a qualidade das previsões realizadas pelo modelo construí
   - Qual o erro médio absoluto para cada dia de previsão dentro dos 30 dias seguintes aos dados?
 
 ---
+- # Da Metodologia Utilizada
+Para a análise dos dados e criação do modelo mais adequado, assim como para a avaliação e validação do que será construído, serão adotados as seguintes etapas:
+  - Configuração e Importação de Bibliotecas e Dados
+  - Análise Exploratória e Tratamento de Dados Faltantes
+  - Criação de um Modelo Ingênuo para Previsão de 30 Dias de Novos Óbitos para o Estado do Rio de Janeiro
+  - Melhoria do Modelo com Estudo de Pontos de Inflexão
+  - Adição de Feriados ao Modelo
+  - Avaliação do Tipo de Sazonalidade com Métricas
+  - Remoção de Outliers e Avaliação no Impacto de Predição do Modelo com Métricas
+  - Validação Cruzada do Modelo Final
+
+---
 - # Da Conclusão
 
 Mediante todos os dados analisados e o modelo construído, pode-se concluir que há uma forma de se criar um modelo preditivo para o número de novos óbitos por dia por COVID19 no estado do Rio de Janeiro.
